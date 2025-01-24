@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 4000
 
 # Command to run your Node.js app
-CMD ["npm", "start"]
+CMD ["node", "main.js"]
